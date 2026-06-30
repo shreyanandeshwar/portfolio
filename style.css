@@ -439,3 +439,47 @@ textarea{
 
     background:#3B82F6;
 }
+.theme-btn{
+    background:transparent;
+    border:none;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+    margin-left:20px;
+    transition:0.3s;
+}
+
+.theme-btn:hover{
+    color:#22D3EE;
+}
+
+body.light-mode{
+    background:#F8FAFC;
+    color:#1E293B;
+}
+
+body.light-mode .navbar{
+    background:#ffffff !important;
+}
+
+body.light-mode .nav-link,
+body.light-mode .navbar-brand{
+    color:#1E293B !important;
+}
+
+body.light-mode .about,
+body.light-mode .projects,
+body.light-mode .contact{
+    background:#F1F5F9;
+}
+
+body.light-mode .skills{
+    background:#FFFFFF;
+}
+
+body.light-mode .skill-card,
+body.light-mode .project-card,
+body.light-mode .contact-info{
+    background:#FFFFFF;
+    color:#1E293B;
+}
